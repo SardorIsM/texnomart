@@ -1,0 +1,113 @@
+.firstProductSwiper {
+    height: 500px;
+}
+.firstProductInfo {
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 28px;
+    
+}
+.firstProductsContainer {
+    height: 460px;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.prevfirstProduct {
+    position: absolute;
+    left: 15px;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nextfirstProduct {
+    position: absolute;
+    right: 15px;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstProductWrapper {
+    height: 380px;
+    border-right: 1px solid #e5e7eb;
+    padding: 0 15px;
+    box-shadow: 0 2px 24px rgb(0 0 0 / 6%);
+}
+.FirstProductImg {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+.firstProductNameLink {
+    text-decoration: none;
+}
+.firstProductName {
+    font-size: 18px;
+    font-weight: 400;
+    color: #373f41;
+    line-height: 20px;
+    margin-bottom: 0.5rem;
+}
+.firstProductPrice {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.firstProductBottom {
+    display: flex;
+    align-items: center;
+}
+.firstProductBasket {
+    max-width: 130px;
+    display: flex;
+    background: #fbc100;
+    border: 2px solid #fbc100;
+    cursor: pointer;
+    padding: 7px 12px;
+    height: 38px;
+    border-radius: 6px;
+    align-items: center;
+    transition: 0.5s;
+}
+.firstProductBasketActive {
+    display: none;
+    transition: 0.5s;
+}
+.firstProductBasketCancel {
+    display: none;
+    max-width: 130px;
+    background: #fbc100;
+    border: 2px solid #fbc100;
+    cursor: pointer;
+    padding: 7px 12px;
+    height: 38px;
+    border-radius: 6px;
+    align-items: center;
+    transition: 0.5s;
+}
+.firstProductBasketCancelActive {
+    display: flex;
+    transition: 0.5s;
+}
+.firstProductBasketIcon {
+    font-size: 21px;
+}
+.firstProductBasketName {
+    display: block;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+.firstProductIconActive {
+    color: gold;
+}

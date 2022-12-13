@@ -1,0 +1,61 @@
+.midPdpComponent {
+    padding: 15px 30px;
+    border-top: 1px solid #ececec;
+    display: flex;
+    margin-bottom: 50px;
+}
+.midPdpComponentContainer {
+    width: 50%;
+    text-align: center;
+}
+.midPdpComponentImage {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 70px;
+}
+.productImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.noImage {
+    font-size: 26px;
+}
+.midPdpComponentCentral {
+    margin-right: 100px;
+}
+.midPdpComponentCentralTitle {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.midPdpComponentCentralText {
+    font-size: 16px;
+    line-height: 20px;
+    color: #767676;
+    letter-spacing: .25px;
+    margin-bottom: 5px;
+}
+.midPdpComponentEndContainer {
+    padding: 20px;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+}
+.midPdpComponentEndBasket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbc100;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    height: 52px;
+    box-shadow: 0 2px 0 #d5a401;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+.midPdpComponentEndBasketIcon {
+    margin-right: 10px;
+}

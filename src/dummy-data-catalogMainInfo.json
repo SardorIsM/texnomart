@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/texnika_dlya_doma.svg",
+        "text": "Техника для дома"
+    },
+    {
+        "id": 2,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/ofisnaya_texnika.svg",
+        "text": "Офисная техника"
+    },
+    {
+        "id": 3,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/texnika_dlya_kuxni.svg",
+        "text": "Техника для кухни"
+    },
+    {
+        "id": 4,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/posuda_dlya_doma.svg",
+        "text": "Посуда для дома"
+    },
+    {
+        "id": 5,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/tovar_dlya_avto.svg",
+        "text": "Товары для авто"
+    },
+    {
+        "id": 6,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/klimaticheskaya_texnika.svg",
+        "text": "Климатическая техника"
+    },
+    {
+        "id": 7,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/televizori_i_telekarti.svg",
+        "text": "Телевизоры и телекарты"
+    },
+    {
+        "id": 8,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/telefoni_i_gatjeti.svg",
+        "text": "Телефоны и гаджеты"
+    },
+    {
+        "id": 9,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/komputernaya_texnika.svg",
+        "text": "Компьютерная техника"
+    },
+    {
+        "id": 10,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/audiotexnika_i_hifi.svg",
+        "text": "Аудиотехника и Hi-Fi"
+    },
+    {
+        "id": 11,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/krasota_i_zdorove.svg",
+        "text": "Красота и здоровье"
+    },
+    {
+        "id": 12,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/tovati_dlya_detey.svg",
+        "text": "Товары для детей"
+    },
+    {
+        "id": 13,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/foto_i_video.svg",
+        "text": "Фото и видео"
+    },
+    {
+        "id": 14,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/spor_i_uvlichenye.svg",
+        "text": "Спорт и увлечение"
+    },
+    {
+        "id": 15,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/igroviye_pristavki.svg",
+        "text": "Игровые приставки"
+    },
+    {
+        "id": 16,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/tovari_dlya_doma.svg",
+        "text": "Товары для дома"
+    },
+    {
+        "id": 17,
+        "iconImage": "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/aksii_i_skidki.svg",
+        "text": "Акции и скидки"
+    }
+]

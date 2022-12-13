@@ -1,0 +1,51 @@
+.basketModule {
+    width: 60%;
+    height: 500px;
+    padding: 20px 20px 20px 40px;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: auto;
+}
+.basketModuleActive {
+    left: 20%;
+}
+.basketModule__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.titleBasketModule {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.quitThisModule {
+    font-size: 40px;
+    cursor: pointer;
+}
+.mainBasketIcon__wrapper {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainBasketIcon {
+    text-align: center;
+    font-size: 60px;
+}
+.mainBasketIconText {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+.eachProductContainer {
+    display: flex;
+}
+.eachProductContainerTrashIcon {
+    font-size: 30px;
+    cursor: pointer;
+}

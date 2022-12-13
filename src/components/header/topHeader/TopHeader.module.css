@@ -1,0 +1,46 @@
+.topHeader {
+    width: 100%;
+    height: 40px;
+    background-color: var(--primary-grey-color);
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.chooseRegion {
+    display: flex;
+    align-items: center;
+    color: var(--primary-light-color);
+    margin-right: 40px;
+}
+.icon {
+    font-size: 25px;
+}
+.navLink {
+    color: var(--primary-light-color);
+    margin: 0 16px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.spanSell {
+    border-radius: 6px;
+    padding: 3px 8px;
+    background: hsla(0,0%,84.7%,.2);
+}
+.topHeaderInfo {
+    padding-left: 100px;
+}
+.number {
+    color: var(--primary-light-color);
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+.contact {
+    font-size: 13px;
+    line-height: 18px;
+    
+}

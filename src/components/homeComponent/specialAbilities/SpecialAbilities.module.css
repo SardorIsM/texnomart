@@ -1,0 +1,48 @@
+.specilaAbilities {
+    padding: 0 30px;
+}
+.mainInfo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+.specilaAbilitiesContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-radius: 6px;
+    border: 1px solid #ececec;
+    margin: 20px 0;
+}
+.infoWrapper {
+    width: 20%;
+    min-height: 160px;
+    padding: 0 16px;
+    text-align: center;
+    border-left: 1px solid #ececec;
+}
+.iconWrapper {
+    margin: 0 auto 18px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: #f7f7f7;
+}
+.infoTitle {
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 110%;
+    margin-bottom: 10px;
+}
+.infoText {
+    max-width: 200px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+}

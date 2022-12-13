@@ -1,0 +1,84 @@
+.topFooter {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: #333;
+    padding: 54px 30px 20px 30px;
+}
+.connectUs {
+    width: 350px;
+    color: #fff;
+    margin-right: 50px;
+}
+.question {
+    font-size: 13px;
+    line-height: 16px;
+    margin-bottom: 14px;
+}
+.number {
+    font-size: 28px;
+    line-height: 110%;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+.divIcon {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.iconWrapper {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: hsla(0,0%,84.7%,.2);
+    margin-right: 12px;
+}
+.socialIcon {
+    color: #fff;
+    font-size: 20px;
+}
+.googlePlay {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.adress {
+    color: #fff;
+    letter-spacing: .2px;
+    text-decoration: none;
+    position: relative;
+}
+.adress::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.colons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.colonsWrapper {
+    width: 30%;
+}
+.colonsItem {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.topFooterLink {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: .2px;
+}
