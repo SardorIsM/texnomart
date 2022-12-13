@@ -76,11 +76,9 @@
     height: 38px;
     border-radius: 6px;
     align-items: center;
-    transition: 0.5s;
 }
 .firstProductBasketActive {
-    display: none;
-    transition: 0.5s;
+    display: none !important;
 }
 .firstProductBasketCancel {
     display: none;
@@ -92,11 +90,9 @@
     height: 38px;
     border-radius: 6px;
     align-items: center;
-    transition: 0.5s;
 }
 .firstProductBasketCancelActive {
     display: flex;
-    transition: 0.5s;
 }
 .firstProductBasketIcon {
     font-size: 21px;

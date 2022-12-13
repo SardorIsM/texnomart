@@ -14,9 +14,11 @@ import { CiHeart } from 'react-icons/ci'
 import { MdCancel } from 'react-icons/md'
 import { Link } from 'react-router-dom'
 import { useDispatch } from "react-redux";
+// import { useSelector } from 'react-redux';
 
 const FirstProductsSwiper = () => {
 
+    // const allAddedProducts = useSelector(state => state);
     const dispatch = useDispatch()
     // const [buttonActive, setVuttonActive] = useState(false)
     const [classActiveH, setClassActiveH] = useState()
@@ -78,8 +80,11 @@ const FirstProductsSwiper = () => {
                                     <p className={c.firstProductPrice}>{product?.price}$</p>
                                     <div className={c.firstProductBottom}>
                                         <button ref={btnBuy} className={c.firstProductBasket} onClick={(event) => {
-                                            btnBuy?.current?.classList?.add(`.${c.firstProductBasketActive}`)
-                                            btnCancel?.current?.classList?.add(`.${c.firstProductBasketCancelActive}`)
+                                            // console.log(product.id);
+                                            // allAddedProducts.products.productInfo?.map(elem => elem?.id === product?.id ? btnBuy?.current?.classList?.add(`${c.firstProductBasketActive}`) : btnCancel?.current?.classList?.add(`${c.firstProductBasketCancelActive}` ))
+                                            // allAddedProducts.products.productInfo[0]?.id === product.id ? btnBuy?.current?.classList?.add(`${c.firstProductBasketActive}`) : btnCancel?.current?.classList?.add(`${c.firstProductBasketCancelActive}`) 
+                                            // btnBuy?.current?.classList?.add(`${c.firstProductBasketActive}`)
+                                            // btnCancel?.current?.classList?.add(`${c.firstProductBasketCancelActive}`)
                                             dispatch({
                                                 type: "ADD_TO_PRODUCT",
                                                 data: product
@@ -92,8 +97,8 @@ const FirstProductsSwiper = () => {
                                             <p className={c.firstProductBasketName}>В корзину</p>
                                         </button>
                                         <button ref={btnCancel} className={c.firstProductBasketCancel} onClick={() => {
-                                            btnBuy?.current?.classList?.remove(`.${c.firstProductBasketActive}`)
-                                            btnCancel?.current?.classList?.remove(`.${c.firstProductBasketCancelActive}`)
+                                            btnBuy?.current?.classList?.remove(`${c.firstProductBasketActive}`)
+                                            btnCancel?.current?.classList?.remove(`${c.firstProductBasketCancelActive}`)
                                         }}>
                                             <MdCancel className={c.firstProductBasketIcon} />
                                             <p className={c.firstProductBasketName}>Отменить</p>

@@ -43,3 +43,9 @@
 .downloadAppendixCameraText {
     max-width: 180px;
 }
+
+@media(max-width: 992px) {
+    .downloadAppendixImage {
+        display: none;
+    }
+}

@@ -1,11 +1,16 @@
 import { useParams } from 'react-router-dom';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import c from './MidPdpComponent.module.css'
 import { SlBasket } from 'react-icons/sl'
 import { v4 as uuidv4 } from 'uuid';
+import { useDispatch } from "react-redux";
+// import { useSelector } from 'react-redux';
 
 const MidPdpComponent = () => {
 
+  const qwerty = useRef()
+  const dispatch = useDispatch()
+  // const allAddedProducts = useSelector(state => state);
   const [products, setProducts] = useState([])
   const { id } = useParams();
   useEffect(() => {
@@ -35,7 +40,13 @@ const MidPdpComponent = () => {
       <div className={c.midPdpComponentEnd}>
         <div className={c.midPdpComponentEndContainer}>
           <h2>{products?.price} $</h2>
-          <div className={c.midPdpComponentEndBasket}>
+          <div ref={qwerty} className={c.midPdpComponentEndBasket} onClick={() => {
+          // allAddedProducts.products.productInfo?.map(elem => elem.id === products.id ? qwerty.current.classList.add(`${c.midPdpComponentEndBasketDisabled}`) : null )
+            dispatch({
+              type: "ADD_TO_PRODUCT",
+              data: products
+          })
+          }}>
             <SlBasket className={c.midPdpComponentEndBasketIcon}/>
             <p className={c.midPdpComponentEndBasketText}>В корзину</p>
           </div>

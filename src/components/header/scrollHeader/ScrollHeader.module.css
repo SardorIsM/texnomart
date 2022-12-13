@@ -105,3 +105,10 @@
   border: 1px solid gold;
   border-radius: 50%;
 }
+
+
+@media(max-width: 992px) {
+    .searchWrapper {
+        display: none;
+    }
+}

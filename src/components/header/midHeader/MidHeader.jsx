@@ -12,7 +12,7 @@ import { useSelector } from 'react-redux';
 const MidHeader = ({setIsBasketModuleActive, setIsLoginModuleActive}) => {
 
   const allAddedProducts = useSelector(state => state);
-
+  // console.log(allAddedProducts.products.productInfo[0]?.id);
   return (
     <div className={c.midHeader}>
       <Link to={'/'} className={c.logo}>

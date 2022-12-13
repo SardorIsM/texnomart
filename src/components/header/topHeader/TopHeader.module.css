@@ -44,3 +44,10 @@
     line-height: 18px;
     
 }
+
+
+@media(max-width: 992px) {
+    .topHeaderLinks {
+        display: none;
+    }
+}
