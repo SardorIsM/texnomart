@@ -51,15 +51,15 @@ const ThirdProductSwiper = () => {
         <div className={c.firstProductSwiper}>
             <h4 className={c.firstProductInfo}>Хит продаж</h4>
             <div className={c.firstProductsContainer}>
-                <button className={c.prevsecondProduct}><SlArrowLeft /></button>
-                <button className={c.nextsecondProduct}><SlArrowRight /></button>
+                <button className={c.prevThirdProduct}><SlArrowLeft /></button>
+                <button className={c.nextThirdProduct}><SlArrowRight /></button>
                 <Swiper slidesPerView={6}
                     spaceBetween={0}
                     pagination={{
                         clickable: true,
                     }} navigation={{
-                        prevEl: `.${c.prevsecondProduct}`,
-                        nextEl: `.${c.nextsecondProduct}`,
+                        prevEl: `.${c.prevThirdProduct}`,
+                        nextEl: `.${c.nextThirdProduct}`,
                     }} modules={[Pagination, Navigation]} >
                     {
                         categories.map(product =>
